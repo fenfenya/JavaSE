@@ -15,7 +15,7 @@ public class TestLambda2 {
     public static void main(String[] args) {
 
 
-        Like11 like11 = new Like11();
+        ILike1 like11 = new Like11();
         like11.lambda();
     }
 

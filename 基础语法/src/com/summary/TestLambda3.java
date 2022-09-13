@@ -1,8 +1,6 @@
-package com.fenfen.Thread.lamdba;
+package com.summary;
 
-//局部内部类
 public class TestLambda3 {
-
 
     public static void main(String[] args) {
 
@@ -15,11 +13,7 @@ public class TestLambda3 {
         ILike3 like3 = new Like3();
         like3.lambda();
     }
-
 }
-//1、定义一个函数式接口
-interface ILike3 {
+interface ILike3{
     void lambda();
-
 }
-
